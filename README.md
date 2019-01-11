@@ -2,7 +2,7 @@
 
 ## OverView
 
-jfile-generator is simple Java  File generator from XML or JSON String.
+jfile-generator is a simple generator that generates Java files from JSON and XML String.
 
 for example,
 
