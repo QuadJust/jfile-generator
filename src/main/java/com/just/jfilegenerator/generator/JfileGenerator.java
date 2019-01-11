@@ -384,7 +384,7 @@ public class JfileGenerator {
                             subClasses.put(StringUtil.lowerCaseFirst(singular), childNode);
                             dataType = String.format("List<%s>", singular);
                         } else {
-                            dataType = String.format("List<%s>", singular);
+                            dataType = String.format("List<%s>", getDataType(childText));
                         }
                         
                         if (buildMap.get("import") == null) {
