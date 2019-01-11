@@ -1,7 +1,7 @@
 package com.just.jfilegenerator.util;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeParseException;
+import java.text.DateFormat;
+import java.text.ParseException;
 
 /**
  * 文字列に関するユーティリティクラス。
@@ -123,10 +123,12 @@ public class StringUtil {
      * @return
      */
     public static boolean isDate(String o) {
+        DateFormat format = DateFormat.getDateInstance();
+        format.setLenient(false);
         try {
-            LocalDate.parse(o);
+            format.parse(o);
             return true;
-        } catch (DateTimeParseException e) {
+        } catch (ParseException e) {
             return false;
         }
     }

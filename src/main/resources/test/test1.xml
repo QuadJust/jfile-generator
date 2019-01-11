@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artist>
+    <name>Radiohead</name>
+    <genre>Alternative</genre>
+    <albums>
+        <album>
+            <name>The Bends</name>
+            <release>1995/3/13</release>
+            <songs>
+                <song>Planet Telex</song>
+                <song>The Bends</song>
+                <song>High and Dry</song>
+                <song>Fake Plastic Trees</song>
+                <song>Bones</song>
+                <song>Nice Dream</song>
+                <song>Just</song>
+                <song>My Iron Lung</song>
+                <song>Bullet Proof...I Wish I Was</song>
+                <song>Black Star</song>
+                <song>Sulk</song>
+                <song>Stree Spirit(Fade Out)</song>
+            </songs>
+        </album>
+    </albums>
+</artist>

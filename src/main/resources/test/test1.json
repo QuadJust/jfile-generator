@@ -1,0 +1,28 @@
+{
+  "artist": {
+    "name": "Radiohead",
+    "genre": "Alternative",
+    "albums": {
+      "album": {
+        "name": "The Bends",
+        "release": "1995/3/13",
+        "songs": {
+          "song": [
+            "Planet Telex",
+            "The Bends",
+            "High and Dry",
+            "Fake Plastic Trees",
+            "Bones",
+            "Nice Dream",
+            "Just",
+            "My Iron Lung",
+            "Bullet Proof...I Wish I Was",
+            "Black Star",
+            "Sulk",
+            "Stree Spirit(Fade Out)"
+          ]
+        }
+      }
+    }
+  }
+}
